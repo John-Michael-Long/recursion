@@ -15,8 +15,7 @@ var getElementsByClassName = function(className) {
   
  
   function checkForClassName(node){
-  	console.log("node =" + node);
-  	console.log("node.classList = "+node.classList)
+  	
    if(node.classList && node.classList.contains(className)){
      resultArray.push(node)
    }
